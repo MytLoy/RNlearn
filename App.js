@@ -24,7 +24,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js哈哈哈哈</Text>
+        <Text style={styles.instructions}>To get started, edit App.js哈哈哈哈1</Text>
         <Text style={styles.instructions}>{instructions}</Text>
         <Image source={pic} style={{width: 183, height: 110}}></Image>
       </View>
