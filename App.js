@@ -6,8 +6,9 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Image} from 'react-native';
+import React, { Component } from 'react';
+import { Platform, StyleSheet, Text, View, Image } from 'react-native';
+import { LotsOfGreetings, BlinkApp, FixedDimensionsBasics } from './Demo';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -23,10 +24,11 @@ export default class App extends Component {
     };
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
-        <Image source={pic} style={{width: 183, height: 110}}></Image>
+        {/* <Image source={pic} style={{ width: 183, height: 110 }}></Image> */}
+        {/* <LotsOfGreetings></LotsOfGreetings> */}
+        {/* <BlinkApp></BlinkApp> */}
+        <FixedDimensionsBasics></FixedDimensionsBasics>
       </View>
     );
   }
